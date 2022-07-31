@@ -8,16 +8,19 @@ const app = Vue.createApp({
           title: 'Diary of a Wimpy Kid',
           author: 'Jeff Kinney',
           img: 'assets/1.jpg',
+          isFav: true,
         },
         {
           title: 'Dinosaurs Before Dark',
           author: 'Mary Pope Osborne',
           img: 'assets/2.jpg',
+          isFav: false,
         },
         {
           title: 'Mummies Before Moring',
           author: 'Mary Pope Osborne',
           img: 'assets/3.jpg',
+          isFav: true,
         },
       ],
     };
