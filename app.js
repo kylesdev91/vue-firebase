@@ -5,19 +5,28 @@ const app = Vue.createApp({
       showBooks: true,
       books: [
         {
-          title: 'Diary of a Wimpy Kid',
-          author: 'Jeff Kinney',
-          img: 'assets/1.jpg',
+          title: 'The Chinese Mr.Wewo Boy',
+          author: 'Mr.Yeese Geese',
+          img: 'assets/Kyle.png',
+          isFav: true,
         },
         {
-          title: 'Dinosaurs Before Dark',
-          author: 'Mary Pope Osborne',
-          img: 'assets/2.jpg',
+          title: 'The Hotstuff Chinese Dad',
+          author: "The Coder Who's a Geese",
+          img: 'assets/Dad.png',
+          isFav: true,
         },
         {
-          title: 'Mummies Before Moring',
-          author: 'Mary Pope Osborne',
-          img: 'assets/3.jpg',
+          title: 'The Fat Mrs. Wewo Geese',
+          author: 'That Chunky Butt',
+          img: 'assets/Kate.png',
+          isFav: false,
+        },
+        {
+          title: 'The Stinky Stinky Mommy',
+          author: 'The Net Ninja',
+          img: 'assets/Mom.png',
+          isFav: true,
         },
       ],
     };
