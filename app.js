@@ -35,6 +35,9 @@ const app = Vue.createApp({
     toogleShowBooks() {
       this.showBooks = !this.showBooks;
     },
+    toogleFav(book) {
+      book.isFav = !book.isFav;
+    },
   },
 });
 
