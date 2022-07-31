@@ -2,26 +2,16 @@ const app = Vue.createApp({
   data() {
     return {
       showBooks: true,
-      title: 'Magic Tree House',
-      author: 'Mary Pope Ashborne',
-      age: 73,
-      x: 0,
-      y: 0,
+      books: [
+        { title: 'Diary of a Wimpy Kid', author: 'Jeff Kinney' },
+        { title: 'Dinosaurs Before Dark', author: 'Mary Pope Osborne' },
+        { title: 'Mummies Before Moring', author: 'Mary Pope Osborne' },
+      ],
     };
   },
   methods: {
     toogleShowBooks() {
       this.showBooks = !this.showBooks;
-    },
-    handleEvent(e, data) {
-      console.log(e, e.type);
-      if (data) {
-        console.log(data);
-      }
-    },
-    handleMousemove(e) {
-      this.x = e.offsetX;
-      this.y = e.offsetY;
     },
   },
 });
