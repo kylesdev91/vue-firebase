@@ -1,9 +1,9 @@
 const app = Vue.createApp({
   data() {
     return {
-      title: 'The Final Empire',
-      author: 'Brandon Sanderson',
-      age: 46,
+      title: 'Magic Tree House',
+      author: 'Mary Pope Ashborne',
+      age: 73,
     };
   },
 });
