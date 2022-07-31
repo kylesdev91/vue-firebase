@@ -47,8 +47,6 @@
             :class="{ fav: book.isFav }"
             @click="toogleFav(book)"
           >
-            <span v-if="showBooks">Hide Books</span>
-            <span v-else>Show Books</span>
             <img :src="book.img" :alt="book.title" />
             <h3>{{ book.title }}</h3>
             <p>{{ book.author }}</p>
