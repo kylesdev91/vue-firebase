@@ -5,7 +5,7 @@ const app = Vue.createApp({
       showBooks: true,
       books: [
         {
-          title: 'The Chinese Mr.Wewo Boy',
+          title: 'The Chinese Mr.Wewo Yeezz',
           author: 'Mr.Yeese Geese',
           img: 'assets/Kyle.png',
           isFav: true,
